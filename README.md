@@ -19,10 +19,9 @@ A small little project using personal chat data downloaded from Facebook.
 
 ## parser.py
 This file crawls through all the embedded html messages and saves each user and their messages as a key value pair.
-The resulting dictionary can then be saved as a pickle (to save time from re-parsing) if the --save_dict flag is passed
+The resulting dictionary can then be saved as a pickle (to save time from re-parsing) if the `--save_dict` flag is passed
 with the filename as the argument.
 
-e.g.
 For one file:
 ```
 python parser.py --file_in conversations_with_steve.html
@@ -55,7 +54,7 @@ python chatter_simulator.py --json_model models/Steve_Irwin.json models/Steve_Jo
 
 
 ## chatroom_simulator.py
-Takes in a directory containing models in a `.json` format and imitates a chatroom. The `len_wait` is the amount of time an model waits before speaking again (controls the chatroom speed).
+Takes in a directory containing models in a `.json` format and imitates a chatroom. The `len_wait` is the amount of time a model waits before speaking again (controls the chatroom speed).
 ```
 python chatroom_simulator.py --model_dir models --len_wait=100
 ```
