@@ -21,7 +21,6 @@ class Speaker:
     def speak(self):
         return '{}: {}'.format(self.name, self.model.make_sentence())
 
-
 def main(args):
     text_model = None
 
