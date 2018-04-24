@@ -1,6 +1,5 @@
-In progress:
-
 Markov Chain testing using fb messages
+
 ```
 .
 ├── README.md
