@@ -14,7 +14,7 @@ Markov Chain testing using fb messages
 ```
 
 
-A small little project using personal chat data downloaded from Facebook.
+A small little project using personal chat data downloaded from [Facebook](https://www.facebook.com/help/contact/180237885820953).
 
 ## parser.py
 This file crawls through all the embedded html messages and saves each user and their messages as a key value pair.
